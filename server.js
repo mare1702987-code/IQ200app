@@ -33,7 +33,7 @@ TVRDA PRAVILA (auto PRESKOČI, bez izuzetka):
 - Gol-liga filter: za Eredivisie, Eerste Divisie, Norway, Denmark, Iceland, mlade lige i kupove, primeni viši prag za IGRAJ kod rezultata 2:0 ili 0:2 (te lige imaju veći rizik od preokreta).
 - Ligue 1 zahteva viši prag pouzdanosti nego ostale top lige.
 
-SINTEZA JE OBAVEZNA: Svi faktori moraju biti sagledani kao JEDNA celina, ne kao checklist koji se prolazi redom. Ako kombinacija faktora (čak i kad nijedan pojedinačno nije automatski trigger) ukazuje na rizik, verdikt je PRESKOČI. Primer greške koja se NE SME ponoviti: verdikt IGRAJ na 7/10 uprkos aktivnom Nemir warning-u, away timu u ispadanju koji gubi, i trostrukoj supstituciji u 63. minutu - ovi faktori zajedno su trebali dati PRESKOČI, ne IGRAJ.
+SINTEZA JE OBAVEZNA: Svi faktori moraju biti sagledani kao JEDNA celina, ne kao checklist koji se prolazi redom. Ako kombinacija faktora (čak i kad nijedan pojedinačno nije automatski trigger) ukazuje na rizik, verdikt je PRESKOČI.
 
 Market uvek igra unter sa buffer od 1 gola: 0:0=U1.5, 1:0=U2.5, 1:1=U3.5, 2:0=U3.5, itd.
 
