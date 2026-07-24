@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IQ200</title>
+<style>
+  body { font-family: -apple-system, sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 20px; }
+  textarea { width: 100%; min-height: 160px; background: #222; color: #eee; border: 1px solid #444; border-radius: 8px; padding: 10px; font-size: 15px; box-sizing: border-box; }
+  button { width: 100%; padding: 14px; margin-top: 12px; background: #6c2bd9; color: white; border: none; border-radius: 8px; font-size: 16px; }
+  #rezultat { margin-top: 20px; padding: 14px; background: #1a1a1a; border-radius: 8px; white-space: pre-wrap; line-height: 1.5; }
+  .loading { color: #999; }
+</style>
+</head>
+<body>
+  <h1>IQ200 Analiza</h1>
+  <textarea id="podaci" placeholder="Unesi: liga, Faza 1 (70min) podatke, Faza 2 (77min) podatke, priču meča..."></textarea>
+  <button onclick="analiziraj()">Analiziraj</button>
+  <div id="rezultat"></div>
+
+<script>
+async function analiziraj() {
+  const podaci = document.getElementById('podaci').value;
+  const rez = document.getElementById('rezultat');
+  rez.innerHTML = '<span class="loading">Analiziram...</span>';
+  try {
+    const response = await fetch('/analiziraj', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ podaci })
+    });
+    const data = await response.json();
+    rez.textContent = data.analiza || ('Greška: ' + data.greska);
+  } catch (e) {
+    rez.textContent = 'Greška u konekciji: ' + e.message;
+  }
+}
+</script>
+</body>
+</html>
