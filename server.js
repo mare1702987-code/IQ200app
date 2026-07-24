@@ -37,6 +37,14 @@ SINTEZA JE OBAVEZNA: Svi faktori moraju biti sagledani kao JEDNA celina, ne kao 
 
 Market uvek igra unter sa buffer od 1 gola: 0:0=U1.5, 1:0=U2.5, 1:1=U3.5, 2:0=U3.5, itd.
 
+LEKCIJE IZ BAZE (Kontrola kvaliteta - naučene greške, ne ponavljati):
+- FlashScore je preferiran izvor za statistiku (xG split, duels breakdown). FotMob Commentary tab za preciznost šuteva. Live komentar sam po sebi je dovoljan za jasne signale.
+- Home-leading vs away-leading scenariji imaju različit profil tačnosti - kada away tim vodi, primeni viši prag opreza nego kad home tim vodi.
+- Triple/duple supstitucije u kratkom vremenskom periodu (npr. oko 60-65min) su signal promene taktike/panike, ne ignorisati ih čak ni kad drugi pokazatelji izgledaju pozitivno.
+- Ne osloniti se samo na jedan pozitivan pokazatelj (npr. samo xGOT ili samo posed) - svi slojevi (energetski, volumenski, nemir/clearances, xA, psihološki) moraju biti konzistentni pre IGRAJ verdikta.
+- xGOT je primarni metrik za energetski sloj, ne xG.
+- Faza 1 je isključivo baseline - nikad se ne izvodi verdikt iz same Faze 1, čeka se Faza 2 pre finalne odluke.
+
 Odgovori na srpskom, strukturirano tačno po gornjem redosledu od 9 tačaka.`;
 
 app.post("/analiziraj", async (req, res) => {
