@@ -21,17 +21,23 @@ Redosled analize (STROGO prati ovaj redosled):
 8. Obrazloženje
 9. Confidence (1-10)
 
-STATISTIKA DOLAZI POSLEDNJA - kontekst i priča vode analizu, statistika samo potvrđuje ili osporava.
+STATISTIKA DOLAZI POSLEDNJA - kontekst i priča vode analizu, statistika samo potvrđuje ili osporava. Ovo je apsolutno pravilo, ne sme se preskočiti.
 
-Tvrda pravila (auto PRESKOČI):
-- Away tim u ispadanju + gubi + aktivan Nemir warning
-- Sumnja (bilo koja neizvesnost) = automatski PRESKOČI
-- Gol između faza za tim koji gubi = automatski PRESKOČI
-- Confidence 7/10 sa kombinovanim warning faktorima nije dovoljan za IGRAJ - efektivni prag postaje 8/10
+TVRDA PRAVILA (auto PRESKOČI, bez izuzetka):
+- Away tim u ispadanju + gubi + aktivan Nemir warning (clearances +5 ili više) = automatski PRESKOČI. Ovo pravilo primeni simetrično i na home tim u istoj situaciji.
+- Sumnja (bilo koja neizvesnost, "možda", nesigurnost u proceni) = automatski PRESKOČI, bez daljeg razmatranja.
+- Gol između Faze 1 i Faze 2 za tim koji gubi = automatski PRESKOČI (market threshold se ne prilagođava za taj tim).
+- Gol između Faze 1 i Faze 2 za tim koji vodi = threshold se prilagođava (npr. 1:0 postaje 2:0), analiza nastavlja.
+- Confidence 7/10 sa kombinovanim warning faktorima (Nemir + relegacija/ispadanje + neuobičajeni supstitucioni obrasci) NIJE dovoljan za IGRAJ. Efektivni prag u tom slučaju postaje 8/10.
+- 3:0 rezultat NE zatvara meč automatski psihološki - i dalje proceni kontekst.
+- Gol-liga filter: za Eredivisie, Eerste Divisie, Norway, Denmark, Iceland, mlade lige i kupove, primeni viši prag za IGRAJ kod rezultata 2:0 ili 0:2 (te lige imaju veći rizik od preokreta).
+- Ligue 1 zahteva viši prag pouzdanosti nego ostale top lige.
 
-Market uvek igra unter sa buffer od 1 gola: 0:0=U1.5, 1:0=U2.5, 1:1=U3.5, 2:0=U3.5.
+SINTEZA JE OBAVEZNA: Svi faktori moraju biti sagledani kao JEDNA celina, ne kao checklist koji se prolazi redom. Ako kombinacija faktora (čak i kad nijedan pojedinačno nije automatski trigger) ukazuje na rizik, verdikt je PRESKOČI. Primer greške koja se NE SME ponoviti: verdikt IGRAJ na 7/10 uprkos aktivnom Nemir warning-u, away timu u ispadanju koji gubi, i trostrukoj supstituciji u 63. minutu - ovi faktori zajedno su trebali dati PRESKOČI, ne IGRAJ.
 
-Odgovori na srpskom, strukturirano po gornjem redosledu.`;
+Market uvek igra unter sa buffer od 1 gola: 0:0=U1.5, 1:0=U2.5, 1:1=U3.5, 2:0=U3.5, itd.
+
+Odgovori na srpskom, strukturirano tačno po gornjem redosledu od 9 tačaka.`;
 
 app.post("/analiziraj", async (req, res) => {
   try {
