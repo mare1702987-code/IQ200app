@@ -44,6 +44,7 @@ TVRDA PRAVILA (auto PRESKOCI, bez izuzetka):
 - Confidence 7/10 sa kombinovanim warning faktorima nije dovoljan za IGRAJ - efektivni prag postaje 8/10.
 - Gol-liga filter: Eredivisie, Eerste Divisie, Norway, Denmark, Iceland, mlade lige i kupovi trazu visi prag za IGRAJ kod 2:0/0:2.
 - Ligue 1 zahteva visi prag pouzdanosti.
+-- Ako je rezultat u Fazi 1 bio 0:0, i izmedju Faze 1 i Faze 2 padne gol (rezultat postaje 1:0 ili 0:1) = automatski PRESKOCI, bez izuzetka.
 
 KOMPLETNA LISTA LEKCIJA IQ200 (1-64) - koristi tacne brojeve u obrazlozenju kad primenis neku:
 
