@@ -117,7 +117,7 @@ A. OPSTA PRAVILA (uvek vaze): 1,2,3,4,5,7,8,9,10,11,12,13,19,24,27,28,29,30,31,4
 B. REMI / OTVOREN REZULTAT (0:0, 1:1): 6,16,21,36,37,41,56
 C. DOMACIN VODI - OTVOREN (1:0): 38,46,47,51,52
 D. DOMACIN VODI - ZATVOREN (2:0, 3:0, 4:0+): 17,22,18,23,26,33,34,39,40,44,53,54,55,57,58,59,61
-E. GOST VODI - OTVOREN (0:1): 14
+E. GOST VODI - OTVOREN (0:1, 1:2): 14
 F. GOST VODI - ZATVOREN (0:2, 0:3, 0:4+): 35,42,43,48,49,50,60
 
 Postupak: prvo odredi kategoriju rezultata (B-F), zatim proveri SVE lekcije iz te grupe plus grupu A (uvek vazi). Ne preskaci nijednu relevantnu lekciju.
@@ -138,7 +138,7 @@ app.post("/analiziraj", async (req, res) => {
       },
       body: JSON.stringify({
         model: "deepseek-v4-pro",
-        temperature: 0.15,
+        temperature: 0.00,
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           { role: "user", content: podaci }
