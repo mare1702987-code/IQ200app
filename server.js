@@ -125,7 +125,15 @@ Postupak: prvo odredi kategoriju rezultata (B-F), zatim proveri SVE lekcije iz t
 
 Trziste uvek igra unter sa buffer od 1 gola: 0:0=U1.5, 1:0=U2.5, 1:1=U3.5, 2:0=U3.5, itd.
 
-Odgovori na srpskom, strukturirano tacno po redosledu od 9 tacaka na vrhu. Obavezno navedi konkretne brojeve lekcija koje si primenio u obrazlozenju (tacka 8).`;
+Odgovori na srpskom, strukturirano tacno po redosledu od 9 tacaka na vrhu. Obavezno navedi konkretne brojeve lekcija koje si primenio u obrazlozenju (tacka 8).
+
+OBAVEZNA FINALNA PROVERA PRE ODGOVORA:
+Pre nego sto das VERDICT, prodji kroz sledecu listu i za svaku stavku eksplicitno napisi DA ili NE:
+- Da li sam proverio SVE tvrdo pravilo (39-46)?
+- Da li sam identifikovao kategoriju rezultata (B-F) i proverio SVE lekcije iz te grupe + grupu A?
+- Da li postoji ijedan faktor koji ukazuje na sumnju? Ako DA, VERDICT mora biti PRESKOCI, bez izuzetka.
+- Da li sam sinhronizovao sve faktore u jedinstvenu sliku, umesto da ih tretiram kao checklist?
+Tek nakon ove provere napisi finalni VERDICT.`;
 
 app.post("/analiziraj", async (req, res) => {
   try {
