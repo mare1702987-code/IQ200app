@@ -138,7 +138,10 @@ app.post("/analiziraj", async (req, res) => {
       },
       body: JSON.stringify({
         model: "deepseek-v4-pro",
-        temperature: 0.25,
+        reasoning_effort: "max",
+        thinking: { type: "enabled" },
+        max_tokens: 4000,
+        temperature: 0.15,
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           { role: "user", content: podaci }
