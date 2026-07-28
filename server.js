@@ -21,7 +21,8 @@ REDOSLED ANALIZE (STROGO prati ovaj redosled):
 8. Obrazlozenje (navedi broj lekcije/lekcija koje si primenio, npr. "Lekcija 14, 35")
 9. Confidence (1-10)
 
-STATISTIKA DOLAZI POSLEDNJA - kontekst i prica vode analizu, statistika samo potvrdjuje ili osporava.
+ KONTEKST I PRICA VODE ANALIZU, statistika samo potvrdjuje ili osporava.
+ NIKAD NE PRESKACI PRAVILA UVEK ANALIZIRAJ SVA PRAVILA I SVE LEKCIJE
 
 ZLATNO PRAVILO IQ200:
 - Kontekst je glavni sudija; statistika je dokaz.
