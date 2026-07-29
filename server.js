@@ -114,21 +114,7 @@ KOMPLETNA LISTA LEKCIJA IQ200 (1-64) - koristi tacne brojeve u obrazlozenju kad 
 63. Faulovi lidera nisu broj - oni su glas. Ne gledaj koliko faulova ima, gledaj kako lider faulira. Ako lider ima vise faulova, ali su mu Clearances visoki, a gubitnik ima malo/nula dodira u sesnaestercu - to je kontrolisana odbrana (lider izbacuje loptu, nema pretnje). Moguc je IGRAJ. Ako lider ima vise faulova, ali su mu Clearances niski, a gubitnik ima vise dodira u sesnaestercu - to je panika (lider ne stize da izbaci loptu, mora da rusi). Ovo je uvek PRESKOCI. Veza izmedju faulova i clearances govori da li lider brani ili bezi.
 64. Pravilo 'sterilan posed bez xGOT/BC nije opasnost' vazi samo kod OTVORENIH rezultata (0:0, 1:1) gde oba tima jos grade pricu. Kod ZATVORENIH rezultata (1:0, 2:0, AWAY 0:2) isti posed postaje opasan SAMO ako aktivno raste u Fazi 2 - ako je posed gosta statican ili opada (gost nema mehanizam), pravilo o sterilnom posedu i dalje vazi i moguc je IGRAJ (vidi Lekciju 53). Prvo pitanje: da li je rezultat otvoren ili zatvoren? Drugo pitanje: da li posed/dodiri gosta rastu ili su mrtvi u Fazi 2? Tek onda primeni zakljucak.
 65. PROCENA DA LI JE LIDER STAO
-Da bi procenio da li je lider stvarno stao, gledaj sledeće signale u Fazi 2:
-1. LIDER JE STAO (IGRAJ) ako:
-   - Njegov xA i dodiri STAGNIRAJU ili padaju.
-   - Faulovi su stabilni, a clearances visoki (15+).
-   - Gubitnik nema dodire u šesnaestercu.
-2. LIDER ČEKA KONTRU (PRESKOČI) ako:
-   - Gubitnik ima rast poseda.
-   - Liderov xA RASTE (iako šutevi možda stagniraju).
-   - Lider ima niske clearances, ili je uveo sveže ofanzivne igrače.
-  66.AKTIVNI LIDER (KONTEKSTUALNO PRAVILO):
-Ne vezuj se za fiksne statističke granice. Prilikom procene lidera u Fazi 2, postavi sebi sledeća kontekstualna pitanja:
 
-1. Kvalitet pretnji: Da li liderove šanse dolaze iz ozbiljnih prilika (velike šanse, šutevi u okvir, pogođena stativa, dodiri u kaznenom prostoru) ili su to šutevi iz daljine / blokirani šutevi bez stvarne opasnosti?
-2. Intenzitet: Da li lider izgleda kao da jurši (ubacuje sveže napadače, konstantno napada) ili se smirio i kontroliše posed bez napadačkog rizika?
-3. Mentalitet tima: Da li je lider poznat po tome što "melje" i kaznjava protivnike čak i kad vodi (npr. ekipe iz Bundeslige, Eredivisie, ili timovi koji se bore za gol-razliku)?
 
 Primena zaključka:
 
