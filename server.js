@@ -123,6 +123,19 @@ Da bi procenio da li je lider stvarno stao, gledaj sledeće signale u Fazi 2:
    - Gubitnik ima rast poseda.
    - Liderov xA RASTE (iako šutevi možda stagniraju).
    - Lider ima niske clearances, ili je uveo sveže ofanzivne igrače.
+  66.AKTIVNI LIDER (KONTEKSTUALNO PRAVILO):
+Ne vezuj se za fiksne statističke granice. Prilikom procene lidera u Fazi 2, postavi sebi sledeća kontekstualna pitanja:
+
+1. Kvalitet pretnji: Da li liderove šanse dolaze iz ozbiljnih prilika (velike šanse, šutevi u okvir, pogođena stativa, dodiri u kaznenom prostoru) ili su to šutevi iz daljine / blokirani šutevi bez stvarne opasnosti?
+2. Intenzitet: Da li lider izgleda kao da jurši (ubacuje sveže napadače, konstantno napada) ili se smirio i kontroliše posed bez napadačkog rizika?
+3. Mentalitet tima: Da li je lider poznat po tome što "melje" i kaznjava protivnike čak i kad vodi (npr. ekipe iz Bundeslige, Eredivisie, ili timovi koji se bore za gol-razliku)?
+
+Primena zaključka:
+
+· Ako lider stvara ozbiljne i ponovljene pretnje, a tržište ima uskog bufera (samo 1 gol prednosti, npr. 1:0 na U2.5), sumnja je prisutna i vodi ka PRESKOČI.
+· Ako lider stvara ozbiljne pretnje, ali tržište ima dovoljan buffer od 2+ gola (npr. 2:0 na U4.5), analiza se nastavlja normalno, jer čak i ako lider postigne 2 gola, linija neće biti probijena.
+· Najvažnije: Ova procena ne sme biti matematička formula. Ona mora biti sinteza onoga što vidiš na terenu i onoga što statistika kaže (xGOT i SOT su tu samo da potvrde kontekst, a ne da ga vode).
+
 
 INDEKS - BRZI FILTER PO KATEGORIJI REZULTATA (koji brojevi lekcija se primenjuju gde):
 A. OPSTA PRAVILA (uvek vaze): 1,2,3,4,5,7,8,9,10,11,12,13,19,24,27,28,29,30,31,45,62,63,64
