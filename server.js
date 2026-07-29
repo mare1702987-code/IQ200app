@@ -172,7 +172,7 @@ app.post("/analiziraj", async (req, res) => {
       body: JSON.stringify({
         model: "deepseek-reasoner", 
 
-        temperature: 0.15,
+        temperature: 0.07,
        
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
