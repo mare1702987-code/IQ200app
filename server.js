@@ -147,9 +147,10 @@ app.post("/analiziraj", async (req, res) => {
         "Authorization": `Bearer ${DEEPSEEK_API_KEY}`
       },
       body: JSON.stringify({
-        model: "deepseek-v4-pro",
+        model: "deepseek-reasoner", 
+
         temperature: 0.15,
-        reasoning_effort: "max",
+       
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           { role: "user", content: podaci }
