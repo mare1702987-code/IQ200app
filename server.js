@@ -113,6 +113,16 @@ KOMPLETNA LISTA LEKCIJA IQ200 (1-64) - koristi tacne brojeve u obrazlozenju kad 
 62. Nemoj se hvatati za Big Chances kao jedini dokaz da li je gol blizu. Golovi mogu da padnu iz kornera, deflekcija, guzvi ili polu-sansi. Gledaj siru sliku (xA, korneri, posed) i uvek koristi gol prednosti kao zastitu. DOPUNA: Gledaj siru sliku faulova. Ako lider ima osetan skok faulova, a clearances su mu niski - to je PANIKA, PRESKOCI. Ako su clearances visoki - kontrolisana odbrana, moguc IGRAJ.
 63. Faulovi lidera nisu broj - oni su glas. Ne gledaj koliko faulova ima, gledaj kako lider faulira. Ako lider ima vise faulova, ali su mu Clearances visoki, a gubitnik ima malo/nula dodira u sesnaestercu - to je kontrolisana odbrana (lider izbacuje loptu, nema pretnje). Moguc je IGRAJ. Ako lider ima vise faulova, ali su mu Clearances niski, a gubitnik ima vise dodira u sesnaestercu - to je panika (lider ne stize da izbaci loptu, mora da rusi). Ovo je uvek PRESKOCI. Veza izmedju faulova i clearances govori da li lider brani ili bezi.
 64. Pravilo 'sterilan posed bez xGOT/BC nije opasnost' vazi samo kod OTVORENIH rezultata (0:0, 1:1) gde oba tima jos grade pricu. Kod ZATVORENIH rezultata (1:0, 2:0, AWAY 0:2) isti posed postaje opasan SAMO ako aktivno raste u Fazi 2 - ako je posed gosta statican ili opada (gost nema mehanizam), pravilo o sterilnom posedu i dalje vazi i moguc je IGRAJ (vidi Lekciju 53). Prvo pitanje: da li je rezultat otvoren ili zatvoren? Drugo pitanje: da li posed/dodiri gosta rastu ili su mrtvi u Fazi 2? Tek onda primeni zakljucak.
+65. PROCENA DA LI JE LIDER STAO
+Da bi procenio da li je lider stvarno stao, gledaj sledeće signale u Fazi 2:
+1. LIDER JE STAO (IGRAJ) ako:
+   - Njegov xA i dodiri STAGNIRAJU ili padaju.
+   - Faulovi su stabilni, a clearances visoki (15+).
+   - Gubitnik nema dodire u šesnaestercu.
+2. LIDER ČEKA KONTRU (PRESKOČI) ako:
+   - Gubitnik ima rast poseda.
+   - Liderov xA RASTE (iako šutevi možda stagniraju).
+   - Lider ima niske clearances, ili je uveo sveže ofanzivne igrače.
 
 INDEKS - BRZI FILTER PO KATEGORIJI REZULTATA (koji brojevi lekcija se primenjuju gde):
 A. OPSTA PRAVILA (uvek vaze): 1,2,3,4,5,7,8,9,10,11,12,13,19,24,27,28,29,30,31,45,62,63,64
